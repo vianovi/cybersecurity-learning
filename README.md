@@ -21,7 +21,8 @@ Tujuan akhirnya: memahami cara kerja sistem, menemukan celah pada lingkungan ber
 - Pengalaman web development membantu memberikan contoh, bukan bukti penguasaan keamanan.
 - Gunakan alur **Learn → Practice → Analyze → Fix → Retest**. Pada bab fundamental, tahap Fix dapat berupa memperbaiki kesalahan pemahaman atau konfigurasi.
 - Ritme fleksibel: lanjut setelah tujuan bab tercapai, bukan berdasarkan tenggat mingguan.
-- Penjelasan percakapan singkat dan satu langkah setiap kali. Detail teknis disimpan dalam bab.
+- Percakapan dan teori bab sama-sama ringkas: satu inti konsep, contoh dekat, lalu pertanyaan sebab-akibat. Istilah baru dikenalkan saat diperlukan.
+- Ukur pemahaman dari kemampuan menjelaskan dengan kata sendiri, memprediksi hasil, dan mencoba contoh berbeda. Tidak perlu menghafal nama istilah atau seluruh perintah; detail tambahan menjadi rujukan opsional.
 - Instalasi tools dan lab khusus dilakukan saat materinya membutuhkan.
 
 ## Konteks pembelajar
