@@ -6,9 +6,13 @@
 
 ## Teori singkat
 
-Repository lokal adalah salinan di laptop. Commit menyimpan perubahan dalam riwayat lokal. Push mengirim commit ke remote; pull mengambil dan mengintegrasikan perubahan remote.
+Catatan di laptop dan GitHub bisa berbeda sampai disinkronkan:
 
-Commit tanpa push belum terlihat oleh AI yang hanya membaca GitHub. ChatGPT/Claude/Codex CLI juga tidak otomatis berbagi riwayat chat.
+- **Commit:** simpan perubahan dalam riwayat lokal.
+- **Push:** kirim commit ke GitHub.
+- **Pull:** ambil dan integrasikan perubahan dari GitHub.
+
+**Pegangan bab ini:** sebelum pindah perangkat, pastikan catatan terbaru sudah tersimpan di GitHub. AI lain membaca dokumen itu, bukan percakapanmu di aplikasi lain.
 
 ## Contoh
 
