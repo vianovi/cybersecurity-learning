@@ -6,9 +6,11 @@
 
 ## Teori singkat
 
-OS mengelola perangkat dan proses; KDE adalah desktop; Konsole adalah terminal; Bash/Fish adalah shell yang menafsirkan perintah. Docker menjalankan container dan bukan pengganti OS host.
+Saat mengetik perintah, kamu memakai terminal (Konsole) dan shell (Bash/Fish) untuk berinteraksi dengan Fedora.
 
-Filesystem dipasang pada **mount point**. `/` adalah akar filesystem; `/home` menyimpan home pengguna biasa; `/root` adalah home pengguna root. Jangan menebak mount point dari nama partisi.
+**Pegangan bab ini:** periksa lingkungan tempat perintah dijalankan. PHP di laptop bisa berbeda dengan PHP di container SPMB.
+
+Untuk folder, cukup bedakan: `/` adalah akar filesystem, `/home` tempat home pengguna biasa, dan `/root` home pengguna root.
 
 ## Contoh
 
@@ -27,10 +29,10 @@ echo "$SHELL"
 
 Dua perintah di atas membaca identitas OS dan shell login yang tercatat. Untuk memeriksa shell aktif, pilih salah satu blok berikut.
 
-**Bash:** `$` adalah PID shell Bash saat ini.
+**Bash:** `$$` adalah PID shell Bash saat ini.
 
 ```bash
-ps -p "$" -o comm=
+ps -p "$$" -o comm=
 ```
 
 **Fish:** gunakan variabel fish_pid.
@@ -96,7 +98,7 @@ Jika PHP host berbeda dengan PHP container, versi mana yang relevan saat men-deb
 
 ## Checklist
 
-- [ ] Bisa membedakan OS, desktop, terminal, dan shell.
+- [ ] Bisa menjelaskan di mana perintah dijalankan: host atau container.
 - [ ] Mengetahui perbedaan / dan /root.
 - [ ] Mencatat hasil aktual; tidak menganggap ilustrasi sebagai hasil sendiri.
 - [ ] Memahami bahwa versi host dan container bisa berbeda.
