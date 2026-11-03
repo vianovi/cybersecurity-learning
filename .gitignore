@@ -1,0 +1,7 @@
+# Hasil latihan lokal; simpan bukti tersanitasi secara terpisah
+.local-labs/
+
+# Rahasia dan environment lokal
+.env
+.env.*
+!.env.example

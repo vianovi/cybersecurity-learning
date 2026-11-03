@@ -7,14 +7,14 @@
 | Bidang | Status |
 |---|---|
 | Pembaruan konteks | 3 November 2026, Asia/Jakarta |
-| Tahap proyek | Menyiapkan dokumentasi inti di repository |
-| Fase belajar aktif | Belum dimulai; orientasi Fase 0 direncanakan |
-| Modul aktif | Belum ada |
-| Modul berikutnya | SET-01; kemudian NET-01: perjalanan browser ke server |
+| Tahap proyek | Fase 0 dan NET-01 tersedia; siap mulai belajar |
+| Fase belajar aktif | Fase 0 — orientasi, siap dimulai |
+| Modul aktif | SET-01 ditetapkan sebagai titik mulai; belum dikonfirmasi dipelajari |
+| Modul berikutnya | NET-01 setelah orientasi; SET-02/03 bisa menyusul di laptop |
 | Status pembelajaran | Belum mulai |
 | Bab selesai | 0 |
 | Branch tujuan dokumentasi inti | main |
-| Commit acuan sebelum penulisan awal | Tidak ada; repository kosong saat diperiksa |
+| Commit acuan sesi penulisan modul | 6825356521a8039d14574d9ed872673cb49a9a4a |
 | Sumber verifikasi sinkronisasi | Riwayat commit GitHub; jangan menganggap perubahan lokal sudah ter-push |
 
 ## Konteks yang telah dikonfirmasi pengguna
@@ -38,7 +38,7 @@ Belum ada konsep cybersecurity yang telah diverifikasi. Pengalaman web developme
 
 Belum ada praktik cybersecurity yang dilaporkan atau dibuktikan dalam sesi ini.
 
-Aktivitas dokumentasi: pengguna membuat repository; AI berhasil membaca metadata dan daftar PR. Ini bukan praktik pengguna pada materi cybersecurity.
+Aktivitas dokumentasi: Fase 0 dan NET-01 telah ditulis. AI menguji skenario HTTP lokal pada runtime Linux: 200, 404, kegagalan koneksi setelah stop, dan 200 setelah restart. Ini bukan praktik pengguna, bukan validasi pada Fedora pengguna, dan tidak mengubah checklist penguasaan.
 
 ## Kendala dan ketidakpastian
 
@@ -55,10 +55,10 @@ Tidak perlu menyelesaikan seluruh inventaris untuk mulai belajar teori.
 
 ## Langkah berikutnya
 
-1. Review singkat dokumen inti.
-2. Tulis bab SET-01 sebagai orientasi singkat, kemudian NET-01 sebagai bab fundamental pertama.
-3. Pelajari alur browser ke server dengan contoh sederhana.
-4. Minta pengguna menjelaskan kembali alurnya; catat bagian yang belum jelas.
+1. Baca [SET-01](00-setup/01-cara-belajar.md) sebagai orientasi singkat.
+2. Mulai teori [NET-01](01-fundamentals/01-browser-ke-server.md); praktik terminal boleh menyusul.
+3. Minta pengguna menjelaskan peran browser, DNS, dan server; catat bagian yang belum jelas.
+4. Saat di laptop, lanjutkan inventaris/Git dan latihan HTTP lokal sesuai kebutuhan.
 
 Jangan langsung menjalankan scan atau mengubah SPMB.
 

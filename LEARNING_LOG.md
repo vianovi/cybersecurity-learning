@@ -65,3 +65,15 @@ Salin format ini di bagian paling bawah saat sesi belajar benar-benar berlangsun
 - **Status progres:** sertakan alasan perubahan status.
 
 Untuk sesi teori, bidang praktik boleh diisi “tidak dilakukan”. Untuk contoh output, beri label “ilustrasi; bukan hasil aktual”.
+
+## 2026-11-03 — Penyusunan Fase 0 dan bab fundamental pertama
+
+- **Jenis:** dokumentasi dan validasi contoh oleh AI.
+- **Bab:** SET-01–04, NET-01.
+- **Permintaan pengguna:** membangun fase awal agar bisa segera mulai belajar fundamental.
+- **Commit acuan:** 6825356521a8039d14574d9ed872673cb49a9a4a.
+- **Hasil:** empat bab orientasi, indeks fase, dan NET-01 tentang perjalanan browser ke server. README/roadmap/progres diperbarui; .gitignore mengecualikan hasil latihan lokal dan environment secrets.
+- **Validasi AI:** tutorial HTTP dicoba pada runtime Linux dengan Python 3 dan curl. Root menghasilkan 200, path tidak ada menghasilkan 404 (curl exit 0), server berhenti menghasilkan curl exit 7, restart kembali 200. Proses dihentikan dan direktori uji sementara dibersihkan.
+- **Batas validasi:** bukan Fedora pengguna; UI browser, Fish, Docker, clone/push laptop pengguna belum diuji. Perintah inventaris bersifat baca saja. Referensi resmi ditinjau; dokumentasi Bash daring gagal dimuat pada pemeriksaan, sintaks PID Bash merupakan sintaks standar.
+- **Progres pengguna:** belum ada bab selesai atau praktik terkonfirmasi; checklist tetap kosong.
+- **Langkah berikutnya:** baca SET-01 lalu teori NET-01; diskusikan alur browser, DNS, dan server dalam satu langkah pendek.

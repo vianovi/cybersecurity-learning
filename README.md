@@ -11,7 +11,9 @@ Tujuan akhirnya: memahami cara kerja sistem, menemukan celah pada lingkungan ber
 3. Pelajari satu konsep, lakukan latihan kecil, lalu analisis hasilnya.
 4. Catat hasil aktual di [jurnal belajar](LEARNING_LOG.md).
 
-**Status dokumentasi:** empat dokumen inti sudah disiapkan. Bab pembelajaran lengkap belum ditulis; roadmap adalah rencana pengembangan, bukan daftar materi yang sudah tersedia.
+**Mulai belajar:** [SET-01 — Cara belajar](00-setup/01-cara-belajar.md), lalu [NET-01 — Perjalanan browser ke server](01-fundamentals/01-browser-ke-server.md).
+
+**Status dokumentasi:** Fase 0 (SET-01–04) dan NET-01 tersedia. Bab lain masih direncanakan. Jika di HP, praktik terminal boleh menyusul.
 
 ## Pendekatan belajar
 
@@ -54,8 +56,8 @@ SPMB akan digunakan setelah fundamental siap. Repository dokumentasi ini tetap t
 | [ROADMAP.md](ROADMAP.md) | Kurikulum, urutan bab, kriteria fase | Tersedia |
 | [PROGRESS.md](PROGRESS.md) | Posisi terkini dan langkah berikutnya | Tersedia |
 | [LEARNING_LOG.md](LEARNING_LOG.md) | Riwayat belajar dan eksperimen | Tersedia |
-| `00-setup/` | Persiapan dan inventaris lingkungan | Direncanakan |
-| `01-fundamentals/` | Networking, Linux tools, dan dasar web security | Direncanakan |
+| [00-setup/](00-setup/README.md) | Persiapan dan inventaris lingkungan | SET-01–04 tersedia |
+| [01-fundamentals/](01-fundamentals/README.md) | Networking, Linux tools, dan dasar web security | NET-01 tersedia |
 | `02-web-hacking/` | Kerentanan dan metode pentest web | Direncanakan |
 | `03-network-hacking/` | Analisis dan keamanan jaringan | Direncanakan |
 | `04-reverse-engineering/` | Analisis JavaScript, API, program sederhana | Direncanakan |

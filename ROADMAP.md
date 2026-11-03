@@ -4,26 +4,26 @@
 
 **Kedalaman:** mulai dari dasar cybersecurity, kemudian bertahap teknis.  
 **Ritme:** fleksibel berdasarkan pemahaman.  
-**Status:** seluruh bab berikut masih direncanakan. Checklist menandai penyelesaian belajar, bukan penyelesaian penulisan.
+**Status:** SET-01–04 dan NET-01 tersedia; bab lain masih direncanakan. Checklist menandai penyelesaian belajar, bukan penyelesaian penulisan.
 
 Setiap fase berisi beberapa bab tersendiri. Referensi dan tools ditinjau kembali ketika bab ditulis. Tidak perlu memasang seluruh tools di awal.
 
 ## Fase 0 — Orientasi dan persiapan minimum
 
-Lokasi rencana: `00-setup/`. Prasyarat: tidak ada.
+Lokasi: [00-setup](00-setup/README.md). Prasyarat: tidak ada.
 
-- [ ] SET-01 — Tujuan, scope berizin, cara belajar, dan penggunaan progres.
-- [ ] SET-02 — Inventaris Fedora, Bash/Fish, versi tools, dan sumber daya perangkat.
-- [ ] SET-03 — Workflow Git: membaca versi terkini, diff, commit, sinkronisasi, serah-terima AI.
-- [ ] SET-04 — Konsep localhost, container, VM, isolasi, serta reset lab; pengenalan saja.
+- [ ] [SET-01](00-setup/01-cara-belajar.md) — Tujuan, scope berizin, cara belajar, dan penggunaan progres.
+- [ ] [SET-02](00-setup/02-inventaris-fedora.md) — Inventaris Fedora, Bash/Fish, versi tools, dan sumber daya perangkat.
+- [ ] [SET-03](00-setup/03-git-dan-serah-terima.md) — Workflow Git: membaca versi terkini, diff, commit, sinkronisasi, serah-terima AI.
+- [ ] [SET-04](00-setup/04-konsep-lab.md) — Konsep localhost, container, VM, isolasi, serta reset lab; pengenalan saja.
 
 **Target:** mengetahui cara memakai dokumentasi dan batas lingkungan praktik. Setup lab khusus ditunda sampai diperlukan.
 
 ## Fase 1 — Fundamental Networking
 
-Lokasi rencana: `01-fundamentals/`. Prasyarat: SET-01; inventaris rinci dapat menyusul saat praktik.
+Lokasi: [01-fundamentals](01-fundamentals/README.md). Prasyarat: SET-01; inventaris rinci dapat menyusul saat praktik.
 
-- [ ] NET-01 — Gambaran perjalanan browser → DNS → koneksi → server → response.
+- [ ] [NET-01](01-fundamentals/01-browser-ke-server.md) — Gambaran perjalanan browser → DNS → koneksi → server → response.
 - [ ] NET-02 — Interface, IP address, IPv4/IPv6, loopback, private/public address.
 - [ ] NET-03 — Subnet mask, CIDR, dan cara menentukan perangkat dalam satu subnet.
 - [ ] NET-04 — MAC address, ARP, dan komunikasi di jaringan lokal; pengenalan IPv6 Neighbor Discovery.
