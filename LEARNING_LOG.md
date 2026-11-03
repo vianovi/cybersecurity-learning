@@ -77,3 +77,11 @@ Untuk sesi teori, bidang praktik boleh diisi “tidak dilakukan”. Untuk contoh
 - **Batas validasi:** bukan Fedora pengguna; UI browser, Fish, Docker, clone/push laptop pengguna belum diuji. Perintah inventaris bersifat baca saja. Referensi resmi ditinjau; dokumentasi Bash daring gagal dimuat pada pemeriksaan, sintaks PID Bash merupakan sintaks standar.
 - **Progres pengguna:** belum ada bab selesai atau praktik terkonfirmasi; checklist tetap kosong.
 - **Langkah berikutnya:** baca SET-01 lalu teori NET-01; diskusikan alur browser, DNS, dan server dalam satu langkah pendek.
+
+## 2026-11-03 — Mulai membaca Fase 0 dan penyesuaian teori
+
+- **Konfirmasi pengguna:** sudah membaca sebagian Fase 0, belum masuk Fase 1. Bab spesifik dan praktik belum dikonfirmasi.
+- **Preferensi:** teori lebih singkat, istilah seperlunya, fokus memahami fundamental dan alasan; bukan tuntutan menghafal.
+- **Perubahan:** teori SET-01–04 diringkas dan prinsip penulisan diperbarui di README. Checklist terkait diselaraskan. Salah ketik PID Bash pada SET-02 diperbaiki menjadi dua tanda dolar.
+- **Progres:** sedang dipelajari; belum ada bab ditandai selesai.
+- **Berikutnya:** lanjutkan Fase 0 dari bagian terakhir yang dibaca; gunakan satu contoh dan pertanyaan sebab-akibat sebelum berpindah fase.
