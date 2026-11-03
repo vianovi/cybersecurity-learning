@@ -6,17 +6,11 @@
 
 ## Teori singkat
 
-| Istilah | Makna sederhana |
-|---|---|
-| Host | Sistem tempat tools/container dijalankan |
-| Localhost | Komputer atau network namespace tempat program tersebut berjalan |
-| 127.0.0.1 | Alamat loopback IPv4 |
-| ::1 | Alamat loopback IPv6 |
-| Container | Lingkungan proses terisolasi yang umumnya berbagi kernel host |
-| VM | Mesin virtual dengan OS/kernel guest sendiri |
-| Port | Nomor endpoint layanan pada suatu alamat/protokol |
+**Localhost berarti lingkungan tempat program itu berjalan.** Jadi, localhost di HP menunjuk HP, bukan laptop.
 
-Localhost di HP menunjuk HP, bukan laptop. Localhost di container biasanya menunjuk network namespace container, bukan host; mode host networking berbeda.
+Laptopmu adalah **host**. Container menjadi lingkungan proses aplikasi di host; VM menjalankan OS tersendiri.
+
+**Pegangan bab ini:** selalu tanyakan “program ini berjalan di mana?” sebelum menentukan alamat yang diakses. Localhost di container biasanya menunjuk container itu sendiri; mode host networking menjadi pengecualian.
 
 ## Contoh
 
