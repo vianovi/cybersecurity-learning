@@ -6,17 +6,11 @@
 
 ## Teori singkat
 
-Cybersecurity mempelajari cara menjaga sistem dan data. Tiga tujuan dasarnya:
+Cybersecurity membantu memastikan data hanya diakses atau diubah oleh orang yang berhak, dan sistem tetap bisa dipakai.
 
-| Tujuan | Contoh di aplikasi pendaftaran |
-|---|---|
-| Confidentiality | Data pendaftar hanya dibaca pihak berhak |
-| Integrity | Nilai/data tidak diubah pihak tanpa izin |
-| Availability | Aplikasi tetap dapat digunakan saat dibutuhkan |
+Sebelum menguji, tentukan **scope**: sistem mana yang boleh diuji dan tindakan apa yang diizinkan. Bisa membuka suatu website bukan berarti boleh mengujinya.
 
-Web hacking berfokus pada perilaku aplikasi dan komunikasi web. Network security memeriksa komunikasi, layanan, dan batas akses jaringan. Reverse engineering menelusuri cara kerja program melalui kode atau perilakunya. Ketiganya membutuhkan pemahaman sistem sebelum penggunaan tools.
-
-**Scope** adalah batas target dan tindakan yang diizinkan. Memiliki aplikasi tidak otomatis memberi izin menguji semua infrastruktur penyedia hosting/tunnel.
+**Pegangan bab ini:** pahami tujuan pengujian dan batas izinnya; istilah teknis bisa dipelajari saat dibutuhkan.
 
 ## Contoh
 
@@ -53,7 +47,7 @@ Belajar mengikuti Learn → Practice → Analyze → Fix → Retest. Misalnya sa
 
 ## Troubleshooting
 
-- **Istilah terlalu banyak:** cukup pegang client, server, dan scope; istilah lain datang bertahap.
+- **Istilah terlalu banyak:** cukup pahami tujuan dan batas izin pengujian; istilah lain datang bertahap.
 - **Ingin langsung scanning:** tulis pertanyaan yang hendak dijawab dulu. Tools dipilih untuk menjawabnya.
 - **Belum di laptop:** latihan bab ini memang bisa diselesaikan lewat HP.
 
@@ -70,7 +64,7 @@ Data dummy mengurangi risiko kebocoran data nyata, tetapi perubahan aplikasi mas
 
 ## Checklist
 
-- [ ] Bisa memberi contoh confidentiality, integrity, availability.
+- [ ] Bisa memberi satu contoh data atau layanan yang perlu dilindungi.
 - [ ] Bisa membedakan akses publik dan izin pengujian.
 - [ ] Bisa menyebutkan cara AI mengetahui progres terakhir.
 - [ ] Sudah mencatat satu hal yang dipahami dan satu pertanyaan.
