@@ -41,30 +41,9 @@ Penulisan dokumen inti dicatat oleh commit Git. Keberhasilan membaca repository 
 
 Review singkat dokumen inti, kemudian susun orientasi SET-01 dan bab NET-01 tentang alur browser ke server.
 
-## Format entri berikutnya
+## Cara mencatat sesi berikutnya
 
-Salin format ini di bagian paling bawah saat sesi belajar benar-benar berlangsung.
-
-### YYYY-MM-DD — Judul sesi
-
-- **Jenis:** teori / praktik / troubleshooting / dokumentasi.
-- **Bab/ID:**
-- **Pelaksana:** pengguna atau AI; bedakan keduanya.
-- **Tujuan dan scope:**
-- **Lingkungan:** OS, shell, versi tools, target lab bila relevan.
-- **Branch dan commit acuan sebelum sesi:**
-- **Yang dipelajari/dicoba:**
-- **Perintah atau perubahan kode:** jelaskan fungsinya.
-- **Hasil aktual/bukti:** tautan file tersanitasi atau ringkasan output.
-- **Analisis:** apa yang dapat disimpulkan dan apa yang masih hipotesis.
-- **Kesalahan dan troubleshooting:**
-- **Perbaikan dan retest:** hasil aktual, atau nyatakan belum dilakukan.
-- **Konfirmasi pengguna:** pemahaman atau praktik yang benar-benar dikonfirmasi.
-- **Kendala tersisa:**
-- **Langkah berikutnya:**
-- **Status progres:** sertakan alasan perubahan status.
-
-Untuk sesi teori, bidang praktik boleh diisi “tidak dilakukan”. Untuk contoh output, beri label “ilustrasi; bukan hasil aktual”.
+AI menambahkan tanggal, topik, temuan/percobaan aktual, kendala, dan langkah berikutnya secara singkat. Silvia tidak perlu menulis draft atau mengisi template. Entri lama di bawah merekam pendekatan saat itu; keputusan terbaru berlaku untuk sesi selanjutnya.
 
 ## 2026-11-03 — Penyusunan Fase 0 dan bab fundamental pertama
 
@@ -85,3 +64,11 @@ Untuk sesi teori, bidang praktik boleh diisi “tidak dilakukan”. Untuk contoh
 - **Perubahan:** teori SET-01–04 diringkas dan prinsip penulisan diperbarui di README. Checklist terkait diselaraskan. Salah ketik PID Bash pada SET-02 diperbaiki menjadi dua tanda dolar.
 - **Progres:** sedang dipelajari; belum ada bab ditandai selesai.
 - **Berikutnya:** lanjutkan Fase 0 dari bagian terakhir yang dibaca; gunakan satu contoh dan pertanyaan sebab-akibat sebelum berpindah fase.
+
+## 2026-11-04 — Beralih ke eksplorasi singkat
+
+Silvia meminta pembelajaran yang membuat penasaran: pengantar, tujuan, analogi/teori singkat, praktik/pengamatan, lalu pertanyaan percakapan tentang penerapan nyata. Tidak ada tugas membuat draft/rangkuman dan tidak perlu banyak modul atau README per modul.
+
+Materi lama dalam 00-setup dan 01-fundamentals dihapus dari versi aktif, termasuk kedua README folder. Empat dokumen inti dan AGENTS dipertahankan serta diselaraskan; .gitignore tetap ada. Versi sebelum perubahan tersedia pada commit d4fbb4f98a9178d0f4ea01e99db302fca47a5f19. Entri sebelumnya adalah catatan historis, bukan instruksi melanjutkan modul yang telah dihapus.
+
+Belum ada eksperimen baru atau penguasaan yang dikonfirmasi. Langkah berikutnya adalah satu topik menarik dengan format baru, tanpa langsung membuat kumpulan file.
